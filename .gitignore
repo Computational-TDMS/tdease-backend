@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+dist/
+build/
+
+# Packaged third-party execution binaries (InformedProteomics et al., ~246 MB) —
+# deployment-provided, never committed.
+nodes/
+.dsh-sidecar/
